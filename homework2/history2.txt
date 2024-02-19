@@ -1,0 +1,13 @@
+   0 touch file.txt
+   1 date >> file.txt
+   2 df -h
+   3 df -h /
+   4 df -h / | grep 47% >> file.txt
+   5 history >> file.txt
+   6 cat /proc/cpuinfo 
+   7 cat /proc/cpuinfo | grep vendor
+   8 cat /proc/cpuinfo | grep vendor >> file.txt
+   9 vi file.txt
+  10 cat file.txt
+  11 export_file file.txt
+  12 history > history2.txt
